@@ -1,0 +1,22 @@
+.header ul {
+    float: right;
+  }
+  
+  .header .active {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  @media (max-width: 30em) {
+    .header ul {
+      float: none;
+    }
+  }
+
+  .logo {
+    max-width: 150px;
+    max-height: 50px;
+  }
+
+  .header {
+    height: 60px;
+  }

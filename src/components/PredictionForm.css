@@ -1,0 +1,43 @@
+.prediction-form {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    max-width: 60%;
+    min-width: 500px;
+    margin: 0 auto 5rem auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #3e7de5;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    width: 50%;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2c5cb1;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  

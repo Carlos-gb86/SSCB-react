@@ -1,0 +1,13 @@
+.content {
+    padding: 2rem 0;
+  }
+  
+  .image-section {
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 300px;
+  }

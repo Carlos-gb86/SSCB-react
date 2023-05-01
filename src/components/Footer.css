@@ -1,0 +1,21 @@
+.footer ul {
+    float: right;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media (max-width: 30em) {
+    .footer ul {
+      float: none;
+      text-align: center;
+    }
+  }
